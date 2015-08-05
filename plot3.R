@@ -28,7 +28,7 @@ sub_tab <- data.frame(dt,subm1,subm2,subm3)
 #make png
 png("plot3.png")
 par(pch="|")
-with(test3,plot(dt,subm1,xlab="",ylab=""))
+with(test3,plot(dt,subm1,xlab="",ylab="Energy sub metering"))
 lines(dt,subm1)
 points(dt,subm2,col="red")
 lines(dt,subm2,col="red")
