@@ -3,8 +3,8 @@
 ## r code required for plot 3
 
 # first download and extract data
-#download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip",destfile="data.zip")
-#unzip("data.zip")
+download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip",destfile="data.zip")
+unzip("data.zip")
 
 
 # get data only for 1/2/2007 and 2/2/2007 by skipping rows from start 
